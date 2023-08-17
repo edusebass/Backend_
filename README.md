@@ -1,6 +1,6 @@
 # Backend
 
-This respository contains about the backend fro the web
+This respository contains about the backend from the web
 
 ---
 
