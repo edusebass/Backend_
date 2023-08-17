@@ -7,7 +7,7 @@
 4. Install the Express package
 (npm i express)
 5. Write Ser application in index.js (code this down) 
-6. Start server
+6. Start server //node index.js
 */
 
 import express from "express";
