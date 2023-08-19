@@ -17,4 +17,4 @@ This respository contains about the backend from the web
     - The page inicial
       ![Alt text](/3.5%20Secrets%20Project/img/image.png)
     - If the password is correct the server call to the other pages
-      ![Alt text](image.png)
+      ![Alt text](3.5%20Secrets%20Project/img/image.png)
