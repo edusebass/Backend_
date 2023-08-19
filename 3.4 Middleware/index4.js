@@ -4,13 +4,10 @@ Where you input the string its should be in other page called /sumbit
 
 import express from "express";
 import bodyParser from "body-parser";
-import morgan from "morgan";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
-import { getRandomValues } from "crypto";
-
-
 const __dirname = dirname(fileURLToPath(import.meta.url));
+
 const app = express();
 const port = 3000;
 
