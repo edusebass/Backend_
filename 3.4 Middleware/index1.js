@@ -16,9 +16,7 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
 });
 
-app.post("/submit", (req, res) => {
-  console.log(req.body);
-});
+
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
