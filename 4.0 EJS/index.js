@@ -19,9 +19,21 @@ const port = 3000;
 
 
 app.get('/', (req, res) => {
+    //day get aggregation
+    const today = new Date();
+    const day = today.getDay();
+    
+    let type = "this is a weekday"
+    let adv = "it´s time to work hard"
+
+    if (day === 0 || day === 6) {
+        type = "this is a weekend"
+        adv = "it´s time to lokiar"
+    }
+
     res.render('index.ejs', {
-        dayType: 'day',
-        advice: 'advice'
+        dayType: type,
+        advice: adv
     });
 });
 
