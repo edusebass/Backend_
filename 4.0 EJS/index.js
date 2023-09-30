@@ -10,6 +10,15 @@
 6. Start server //node index.js
 */
 
+
+
+
+
+
+
+
+
+
 import express from "express";
 
 //This is a app that obligatory
@@ -20,7 +29,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
     //day get aggregation
-    const today = new Date();
+    const today = new Date("June, 24, 2023");
     const day = today.getDay();
     
     let type = "this is a weekday"
@@ -36,6 +45,10 @@ app.get('/', (req, res) => {
         advice: adv
     });
 });
+
+
+
+
 
 //3000 is the port of the server
 app.listen(port, () =>{
