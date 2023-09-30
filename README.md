@@ -21,3 +21,5 @@ This respository contains about the backend from the web
       ![Alt text](3.5%20Secrets%20Project/img/image2.png)
 
 - 4.0 Contain about the EJS and how to create and utilize the embedded javascript.
+- 4.1 Contain about the TAGS EJS and how to utilize in the backend.
+  - ![Alt text](/4.1%20EJS%20Tags/views/image.png)
