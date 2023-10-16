@@ -9,11 +9,10 @@
 
 <body>
   <h1>
-    <!-- Tite goes here -->
+    
     <%= title %>
   </h1>
   <p>Current second:
-    <!-- Current second goes here -->
     <%= seconds %>
   </p>
 
@@ -21,11 +20,9 @@
   <%  if (seconds % 2===0) {%>
   <ul>
     <% items.forEach((fruit) => {%>
-      <li><%=fruit %></li>
-    <% });%>
-    <!-- List goes here if current second is even. -->
-    <!-- Otherwise it should display the following: -->
-    <!-- <p>No items to display</p> -->
+      <li> <%= fruit %></li>
+    <% }); %>
+  
 
   </ul>
   <%} else {%>
