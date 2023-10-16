@@ -23,3 +23,4 @@ This respository contains about the backend from the web
 - 4.0 Contain about the EJS and how to create and utilize the embedded javascript.
 - 4.1 Contain about the TAGS EJS and how to utilize in the backend.
   - ![Alt text](/4.1%20EJS%20Tags/views/image.png)
+- 4.2 Contain about the res an req data EJS
